@@ -25,6 +25,8 @@ zuul:
   host:
     max-per-route-connections: ${demo.spring.client.zuul.route.connections}
     max-total-connections: ${demo.spring.client.zuul.total.connections}
-
+  routes: # 网关路由配置
+    demo-spring-client-one: demo/one/**
+    demo-spring-client-two: demo/two/**
 
 
