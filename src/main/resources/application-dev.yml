@@ -1,7 +1,7 @@
 demo:
   spring:
     client:
-      serviceUrl: 10.0.78.74
+      serviceUrl: 10.10.11.189
       port: 12380
       instance:
         renewalInterval: 15
